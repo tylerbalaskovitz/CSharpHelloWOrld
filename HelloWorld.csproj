@@ -1,0 +1,23 @@
+<-- .csproj files are essential for the execute of C# applications. .csproj files determine how an app is built, executed and more. --> 
+<-- specifies the SDK used in this project. In this case, the Microsoft .NET Sdk -->
+<Project Sdk="Microsoft.NET.Sdk">
+
+
+  <PropertyGroup>
+
+  <-- shows the file created will be an executable file -->
+    <OutputType>Exe</OutputType>
+
+    <-- specifies the version of .NET to be used, in this case .NET 7.0 --> 
+    <TargetFramework>net7.0</TargetFramework>
+
+    <-- Allows you to omit commonly used namespace imports -->
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <-- allows nullable references in the project. Determines if a variables/paramter is allowed to be null -->
+    <Nullable>enable</Nullable>
+
+
+  </PropertyGroup>
+
+</Project>
